@@ -18,6 +18,7 @@ namespace XamarinProjet.Resources.Model
     {
         [PrimaryKey, AutoIncrement]
         public int id_filiere { get; set; }
+        [Unique]
         public string nom_filiere { get; set; }
     }
 }
